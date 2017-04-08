@@ -1,8 +1,8 @@
-package fr.tommarx.ohgj.desktop;
+package com.ohgj.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import fr.tommarx.ohgj.GameClass;
+import com.ohgj.GameClass;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
