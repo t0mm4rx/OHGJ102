@@ -1,6 +1,6 @@
 package com.ohgj;
 
-import fr.tommarx.gameengine.Game.Game;
+import com.ohgj.gameengine.Game.Game;
 
 public class GameClass extends Game {
 

@@ -2,11 +2,11 @@ package com.ohgj;
 
 import com.badlogic.gdx.graphics.Color;
 
-import fr.tommarx.gameengine.Components.Text;
-import fr.tommarx.gameengine.Components.Transform;
-import fr.tommarx.gameengine.Game.Game;
-import fr.tommarx.gameengine.Game.GameObject;
-import fr.tommarx.gameengine.Game.Screen;
+import com.ohgj.gameengine.Components.Text;
+import com.ohgj.gameengine.Components.Transform;
+import com.ohgj.gameengine.Game.Game;
+import com.ohgj.gameengine.Game.GameObject;
+import com.ohgj.gameengine.Game.Screen;
 
 public class GameScreen extends Screen {
 
