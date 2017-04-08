@@ -51,6 +51,7 @@ public class Text extends Component {
                 getGameObject().getTransform().getPosition().x * 100 - glyphLayout.width / 2 / 100 + offsetX,
                 getGameObject().getTransform().getPosition().y * 100 - glyphLayout.height / 2 / 100 + offsetY
         );
+        Game.batch.setProjectionMatrix(Game.getCurrentScreen().camera.combined.cpy().scale(1, 1, 1));
     }
 
     public void renderInHUD() {
